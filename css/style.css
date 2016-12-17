@@ -22,7 +22,7 @@ html,body {
    src: url(../fonts/OpenSans-Regular.ttf)format('truetype');
 }
 .header-bg{
-  background:#E68408;
+  background:#ffa93d;
   background-size:cover;
   padding-bottom: 12em;
 }

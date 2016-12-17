@@ -27,7 +27,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <script type="text/javascript" src="js/easing.js"></script>
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
-		$(".scroll").click(function(event){		
+		$(".scroll").click(function(event){
 			event.preventDefault();
 			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
 		});
@@ -38,7 +38,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<body class="cbp-spmenu-push">
 		<!-- header -->
 		<div class="header-bg">
-					<section class="navigation">
+					<!-- <section class="navigation">
 							<div class="container-fluid">
 								<div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
 								  <nav class="pull">
@@ -51,23 +51,37 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								  </nav>
 								</div>
 							</div>
-						</section>
+						</section> -->
 						<div class="header-top">
 							<div class="container">
 								<div class="head-logo">
-									<a href="index.html">SmileyApp</a>
+									<!-- <a href="index.html">SmileyApp</a> -->
 								</div>
 								<div class="top-nav">
-									<section class="hero fa-2x nav_slide_button" id="hero">
+									<!-- <section class="hero fa-2x nav_slide_button" id="hero">
 										<a href="#"><img src="images/menu-icon.png" alt=""></a>
-									</section>	
-								</div>	
+									</section> -->
+									<ul class="nav">
+									  <li><a href="#home" class="scroll">Home</a></li>
+									  <li><a href="#people" class="scroll">Who are we?</a></li>
+									  <li><a href="#features" class="scroll">Features</a></li>
+									  <li><a href="#contact" class="scroll">Contact</a></li>
+									</ul>
+								</div>
 								<div class="clearfix"> </div>
 							</div>
 						</div>
 			<div class="banner-info">
 				<!-- container -->
 				<div class="container">
+					<div class="col-md-7 banner-info-left" style="padding-right: 2em">
+						<h2>Smiley sets a <span>whole new level</span> of entertainment. Challenge your friends sending them a funny picture. If they smile, you win!</h2>
+						<p>Collect points, send funny pictures, receive Smiley challenges from your friends and HAVE FUN!</p>
+						<div class="banner-buttons">
+							<button type="button" class="nav-button">Download App</button>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
 					<div class="col-md-5 slid">
 						<!--- banner Slider starts Here --->
 							<script src="js/responsiveslides.min.js"></script>
@@ -88,7 +102,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								  $('.events').append("<li>after event fired.</li>");
 								}
 							  });
-						
+
 							});
 						  </script>
 						<!----//End-slider-script---->
@@ -107,14 +121,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							</ul>
 						</div>
 					</div>
-					<div class="col-md-7 banner-info-left">
-						<h2>Smiley sets a <span>whole new level</span> of entertainment. Challenge your friends sending them a funny picture. If they smile, you win!</h2>
-						<p>Collect points, send funny pictures, receive Smiley challenges from your friends and HAVE FUN!</p>
-						<div class="banner-buttons">
-							<button type="button" class="btn btn-primary btn-lg">Download App</button>
-							<div class="clearfix"> </div>
-						</div>
-					</div>
 					<div class="clearfix"> </div>
 				</div>
 				<!-- //container -->
@@ -123,39 +129,39 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<!-- //header -->
 		<!-- kim jestesmy -->
 		   <section id="people" style="float: none; background-color: #398EDB; padding-bottom: 15em;">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading" style="color: white; font-family: 'DidactGothic'; font-size: 5.5em; padding: 1em;">Who are we?</h2>
-                </div>
-            </div>
-            <div class="row container5">
-				<div class="center-block col-md-3 text-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h2 class="section-heading" style="color: white; font-family: 'DidactGothic'; font-size: 5.5em; padding: 1em;">Who are we?</h2>
+				</div>
+			</div>
+			<div class="row container5">
+				<div class="center-block col-md-4 text-center" style="padding: 0 70px;">
 					<img src="images/michal.jpg" class="img-responsive img-circle" alt="">
-					<h3 class="my-text" style="color: white; font-size: 1.5em;">Michał Kiełtyka</h3>
-					<h4 class="text-muted" style="color: #FFF30D; font-size: 1.5em; margin: 0em 0;">Nobody</h4>
+					<h3 class="my-text">Michał Kiełtyka</h3>
+					<h4 class="text-muted">Nobody</h4>
 				</div>
 
-				<div class="center-block col-md-3 text-center">
+				<div class="center-block col-md-4 text-center" style="padding: 0 70px;">
 					<img src="images/dariusz.jpg"  class="img-responsive img-circle" alt="" >
-					<h3 class="my-text" style="color: white; font-size: 1.5em;">Dariusz Czajkowski</h3>
-					<h4 class="text-muted" style="color: #FFF30D; font-size: 1.5em; margin: 0em 0;">Back-end Pirate</h4>
+					<h3 class="my-text">Dariusz Czajkowski</h3>
+					<h4 class="text-muted">Back-end Pirate</h4>
 				</div>
-				<div class="center-block col-md-3 text-center">
+				<div class="center-block col-md-4 text-center" style="padding: 0 70px;">
 					<img src="images/jaroslaw.jpg"  class="img-responsive img-circle" alt="" >
-					<h3 class="my-text" style="color: white; font-size: 1.5em;">Jarosław Michalik</h3>
-					<h4 class="text-muted" style="color: #FFF30D; font-size: 1.5em; margin: 0em 0;">Android Ninja</h4>
+					<h3 class="my-text">Jarosław Michalik</h3>
+					<h4 class="text-muted">Android Ninja</h4>
 				</div>
-				<div class="center-block col-md-3 text-center">
+				<!-- <div class="center-block col-md-3 text-center">
 					<img src="images/sebastian.jpg"  class="img-responsive img-circle" alt="" >
 					<h3 class="my-text" style="color: white; font-size: 1.5em;">Sebastian Draus</h3>
 					<h4 class="text-muted" style="color: #FFF30D; font-size: 1.5em; margin: 0em 0;">Android Ninja</h4>
-				</div>
-            </div>
-        </div>
-    </section>
+				</div> -->
+			</div>
+		</div>
+	</section>
 		<!-- //kim jestesmy -->
-		
+
 		<!-- features -->
 		<div id="features" class="features">
 			<!-- container -->
@@ -165,6 +171,44 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<p>Looking for fun? Want to share funny moments with your friends? This app is for you!</p>
 				</div>
 				<div class="features-grids">
+					<div class="col-md-5 slid lefty">
+							<!--- banner Slider starts Here --->
+							 <script>
+								// You can also use "$(window).load(function() {"
+								$(function () {
+								  // Slideshow 4
+								  $("#slider3").responsiveSlides({
+									auto: true,
+									pager: true,
+									nav: true,
+									speed: 500,
+									namespace: "callbacks",
+									before: function () {
+									  $('.events').append("<li>before event fired.</li>");
+									},
+									after: function () {
+									  $('.events').append("<li>after event fired.</li>");
+									}
+								  });
+
+								});
+							  </script>
+							<!----//End-slider-script---->
+							<div  id="top" class="callbacks_container">
+								<ul class="rslides" id="slider3">
+									<li>
+										<div class="mobile-device features-device">
+											<img src="images/mobile.png" alt="" />
+										</div>
+									</li>
+									<li>
+										<div class="mobile-device green-device features-device">
+											<img src="images/mobile3.png" alt="" />
+										</div>
+									</li>
+								</ul>
+							</div>
+					</div>
 					<div class="col-md-7 features-right">
 						<h4>Functionality:
 						</h4>
@@ -203,44 +247,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							</div>
 						</div>
 					</div>
-					<div class="col-md-5 slid">
-							<!--- banner Slider starts Here --->
-							 <script>
-								// You can also use "$(window).load(function() {"
-								$(function () {
-								  // Slideshow 4
-								  $("#slider3").responsiveSlides({
-									auto: true,
-									pager: true,
-									nav: true,
-									speed: 500,
-									namespace: "callbacks",
-									before: function () {
-									  $('.events').append("<li>before event fired.</li>");
-									},
-									after: function () {
-									  $('.events').append("<li>after event fired.</li>");
-									}
-								  });
-							
-								});
-							  </script>
-							<!----//End-slider-script---->
-							<div  id="top" class="callbacks_container">
-								<ul class="rslides" id="slider3">
-									<li>
-										<div class="mobile-device features-device">
-											<img src="images/mobile.png" alt="" />
-										</div>
-									</li>
-									<li>
-										<div class="mobile-device green-device features-device">
-											<img src="images/mobile3.png" alt="" />
-										</div>
-									</li>
-								</ul>
-							</div>
-					</div>
 					<div class="clearfix"> </div>
 				</div>
 			</div>
@@ -252,9 +258,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="container" id="contact">
 				<div class="row">
 					<div class="col-lg-10 col-lg-offset-1 text-center">
-						<h4><strong style="font-family: Alegreya; font-weight: bold; color: #FFF30D">Smiley</strong>
-						</h4>
-						<p style="color: #FFF30D">Reymonta 20<br>BAIT Hackathon</p>
+						<!-- <h4><strong style="font-family: Alegreya; font-weight: bold; color: #FFF30D">Smiley</strong> -->
+						<!-- </h4> -->
+						<!-- <p style="color: #FFF30D">Reymonta 20<br>BAIT Hackathon</p>
 						<ul class="list-unstyled">
 							<li><i style="color: #FFF30D" class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:contact@smileyapp.pl" style="color: #FFF30D">contact@smileyapp.pl</a>
 							</li>
@@ -264,9 +270,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<li>
 								<a href="https://www.facebook.com/smileyapp"><i class="fa fa-facebook fa-fw fa-3x" style="color: #398EDB;"></i></a>
 							</li>
-						</ul>
-						<hr class="small">
-						<p class="text-muted" style="color: #FFF30D">Copyright &copy; 2016</br>Michał Kiełtyka, Dariusz Czajkowski, Jarosław Michalik, Sebastian Draus</p>
+						</ul> -->
+						<!-- <hr class="small"> -->
+						<p class="text-muted" style="color: #fff">Copyright &copy; 2016</br>Michał Kiełtyka, Dariusz Czajkowski, Jarosław Michalik</p>
 					</div>
 				</div>
 			</div>
@@ -275,15 +281,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 									$(document).ready(function() {
 										/*
 										var defaults = {
-								  			containerID: 'toTop', // fading element id
+											containerID: 'toTop', // fading element id
 											containerHoverID: 'toTopHover', // fading element hover id
 											scrollSpeed: 1200,
-											easingType: 'linear' 
-								 		};
+											easingType: 'linear'
+										};
 										*/
-										
+
 										$().UItoTop({ easingType: 'easeOutQuart' });
-										
+
 									});
 								</script>
 									<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>

@@ -41,8 +41,8 @@ html,body {
 }
 .head-logo{
   float:left;
-  height: 130px;
-  width: 290px;
+  height: 180px;
+  width: 330px;
   background-image: url(../images/logo.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -97,7 +97,7 @@ html,body {
 }
 .banner-info-left h2{
   font-size: 2em;
-  margin: 9em 0 1em 0;
+  margin: 4em 0 1em 0;
   color: #FFF;
   font-weight: 300;
   line-height: 1.5em;
@@ -132,7 +132,7 @@ html,body {
   margin:0 1em;
 }
 .mobile-device {
-  margin-top: 7em;
+  margin-top: 0;
 }
 /*------------------ Slider Part starts Here----------*/
 #slider2,
